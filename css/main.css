@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  font-family: "Outfit", sans-serif;
+  font-family: "Outfit";
   background-color: var(--Slate-300);
 }
 
@@ -60,17 +60,18 @@ body {
   padding: 0 16px;
 }
 
-.card .text h3,
+.card .text h1,
 .card .text p {
   margin: 0;
   width: 100%;
 }
 
-.card .text h3 {
+.card .text h1 {
   margin-bottom: 16px;
   font-weight: bold;
   font-size: 22px;
   line-height: 120%;
+  color: var(--Slate-900);
 }
 
 .card .text p {
@@ -78,4 +79,5 @@ body {
   font-size: 15px;
   line-height: 140%;
   letter-spacing: 0.2px;
+  color: var(--Slate-500);
 }
